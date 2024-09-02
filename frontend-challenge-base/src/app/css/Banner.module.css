@@ -1,0 +1,68 @@
+.card {
+  position: relative;
+  background-image: url(https://s3-alpha-sig.figma.com/img/99a5/ecf5/809c08beb19d02e980b502830e061d64?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=duWBLwBVNbl9TbYXerjtdfWGPLSX4dm-lEQ934mwdnLsFdbM4GenZzfh9s~nrib~6LYsdVcON0-5lw~COTWzzyNcmPT0~f~mkJVe~NvJTQO5BJB3Jx85GUW-KzM8wKUqmOUHcRYuZKat~ZjSChzPJ4FFFFyCewzm92P2cbRV0PLs4AvLbAryjejgkqtb4OECM2fb1ACa1klkmi1ICcdYrfhcYsQqtI79XPetaaTagPlRbtCOenlK0BP-fpKXAsXJ4n9riTU1xUr4rcF9~6KUlIoQ6R43bZsDaMbJ0LB~QZo1o5jZjhpwtZBnAsNDLflozM6Unog4UTyvidEvI-NQPw__);
+  height: 435px;
+  width: 100vw;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  background: transparent;
+}
+
+.descriptionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+.description {
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 1.4;
+  background: transparent;
+}
+
+.ratingContainer {
+  border: 5px #00ff00 solid;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: cenetr;
+  align-items: center;
+  background: transparent;
+  color: #454545;
+}
+
+.rating {
+  font-size: 20px;
+  margin-left: 10px;
+  background: transparent;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  background: transparent;
+}
+
+.heart {
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 5px;
+  background: transparent;
+}

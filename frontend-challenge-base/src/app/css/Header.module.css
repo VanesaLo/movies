@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  padding: 4px 10px;
+  height: 59px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.imgLogo {
+  height: 42px;
+  width: 164px;
+  left: 100px;
+}
+
+.menu {
+  display: flex;
+  background-color: #000;
+  list-style-type: none;
+  gap: 60px;
+  padding: 20px;
+}
+
+.menuItem {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  display: inline-block;
+}
+
+.btnLogin {
+  color: #000;
+  height: 16px;
+  width: 26px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.imgLogin {
+  height: 26px;
+  background: #000;
+}

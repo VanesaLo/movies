@@ -1,0 +1,54 @@
+.list {
+  display: inline-flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #444;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.poster {
+  width: 100%;
+  height: auto;
+}
+
+.movieInfo {
+  padding: 10px;
+}
+
+.title {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating {
+  font-size: 0.9rem;
+  color: #ffd700;
+}
+
+.categorySection {
+  display: flex;
+  grid-template-columns: 250px 2fr;
+  gap: 20px;
+}
+
+.moviesContainer {
+  width: 50rem;
+  padding-top: 25px;
+}
